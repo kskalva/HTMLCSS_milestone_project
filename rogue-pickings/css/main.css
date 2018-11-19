@@ -1,0 +1,139 @@
+/**************BASE STYLES****************/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #2b2b2b;
+    padding: 0px 30px 0px 30px ;
+	}
+
+#About {
+	height: 700px;
+}
+
+#Details {
+    height: 200px;
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+
+/**************GRID SYLES***************/
+
+.full-width {
+	width: 100%;
+	/*margin: 0 auto;*/
+}
+
+.half-width {
+	width: 50%;
+	float: left;
+}
+
+.third-width {
+	width: 31%;
+	float: left;
+}
+
+
+/***************HEADER*****************/
+header h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+
+header nav {
+    padding-top: 15px;
+    float: right;
+}
+
+
+header nav li {
+    list-style: none;
+    color: #77a466;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+/******* About section *************/
+
+#About h2 {
+    color: #89b07a;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+}
+
+#About p {
+    font-size: 16px;
+    color: #000000 ;
+    line-height: 25px ;
+}
+
+#About img {
+    width: 100%;
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+/*************** Details section **************/
+
+#Details h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#Details #Menu, #Reviews{
+    border-right: 1px solid #dedbdc;
+}
+
+#Details #Menu, #Locations, #Reviews{
+    width: 30%;
+}
+
+#Details #Menu ul {
+    padding: 0;
+    color: #9bbc8f;
+    list-style: none;
+    font-size: 18px;
+    line-height: 41px;
+    text-transform: capitalize;
+}
+
+#Details #Reviews  {
+    padding: 0px 25px 0px 25px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+#Details #Locations {
+    padding: 0px 10px 0px 10px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+/*************Footer section ***************/
+
+footer {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0 500px 0 500px;
+    position: absolute;
+}
+
+footer span {
+    font-family: 'Allura';
+    text-transform: lowercase;
+    font-size: 30px;
+    color: #77a466;
+
+
+}
